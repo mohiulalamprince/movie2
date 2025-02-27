@@ -759,8 +759,8 @@
   759  kubectl delete secret container-registry-secret -n tektontutorial
   760  kubectl delete sa build-bot -n tektontutorial
   761  export CONTAINER_REGISTRY_SERVER='docker.io' 
-  762  export CONTAINER_REGISTRY_USER='mohiulalamprince'
-  763  export CONTAINER_REGISTRY_PASSWORD='Mother12#'
+  762  export CONTAINER_REGISTRY_USER=''
+  763  export CONTAINER_REGISTRY_PASSWORD=''
   764  export CONTAINER_REGISTRY_EMAIL='mohiulalamprince@yahoo.com'
   765  kubectl create secret -n tektontutorial docker-registry container-registry-secret   --docker-server=$CONTAINER_REGISTRY_SERVER   --docker-username=$CONTAINER_REGISTRY_USER   --docker-password=$CONTAINER_REGISTRY_PASSWORD   --docker-email=$CONTAINER_REGISTRY_EMAIL
   766  kubectl create sa -n tektontutorial build-bot
