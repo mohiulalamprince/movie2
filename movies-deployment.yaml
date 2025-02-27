@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: movies2-deployment
+  labels:
+    app: movies2
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: movies2
+  template:
+    metadata:
+      labels:
+        app: movies2
+    spec:
+      containers:
+      - name: movies2
+        image: mohiulalamprince/movie2:latest
+        ports:
+        - containerPort: 80
+

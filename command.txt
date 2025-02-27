@@ -1,0 +1,782 @@
+    1  ls
+    2  cd work/
+    3  ls
+    4  cd python/
+    5  ls
+    6  cd smartcity/
+    7  ls
+    8  tmux
+    9  ls
+   10  cd wo
+   11  cd work/
+   12  ls
+   13  cd python/
+   14  ls
+   15  ls netherland/
+   16  ls
+   17  cd ..
+   18  tmux
+   19  ls
+   20  tmux
+   21  psql
+   22  exit
+   23  psql
+   24  sudo -u prince psql
+   25  sudo -u postgres createdb roads
+   26  sudo -u prince psql
+   27  sudo -u postgres psql
+   28  curl -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgadmin.gpg
+   29  sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list'
+   30  sudo apt update
+   31  sudo ap install pgadmin4
+   32  sudo apt install pgadmin4
+   33  sudo /usr/pgadmin4/bin/setup-web.sh 
+   34  ls
+   35  sudo -u postgres roads
+   36  sudo -i -u prince
+   37  sudo -i -u postgres
+   38  sudo -u postgres psql
+   39  sudo -u prince psql
+   40  sudo -u postgres psql
+   41  sudo -u prince psql
+   42  sudo -u postgres createdb roads
+   43  sudo -i -u postgres
+   44  exit
+   45  ls
+   46  cd work/
+   47  ls
+   48  cd python/
+   49  ls
+   50  cd osm-data-parser/
+   51  ls
+   52  source /home/prince/Downloads/osmenv/bin/activate
+   53  ls
+   54  pip install pygdaltools
+   55  tmux
+   56  ls
+   57  podman
+   58  sudo apt install podman
+   59  ls
+   60  sudo apt install virt-manager
+   61  ls
+   62  cd work/
+   63  ls
+   64  mkdir angular
+   65  ls
+   66  cd angular/
+   67  ls
+   68  npm
+   69  npm install -g @angular/cli
+   70  pwd
+   71  exit
+   72  sudo npm install -g @angular/cli
+   73  npm install --save @angular/material @angular/cdk
+   74  sudo npm install --save @angular/material @angular/cdk
+   75  sudo npm install --save @angular/material @angular/cdk --force
+   76  npm audit fix --force
+   77  ls
+   78  cd ..
+   79  ls
+   80  ng new fitness-tracker
+   81  ls
+   82  cd fitness-tracker/
+   83  ls
+   84  sudo npm install --save @angular/material @angular/cdk --force
+   85  npm install -g json-server
+   86  sudo npm install -g json-server
+   87  touch db.json
+   88  json-server --watch db.json
+   89  cd ..
+   90  ls
+   91  cd fitness-tracker/
+   92  ls
+   93  sudo npm install --save @angular/material @angular/cdk --force
+   94  ng add @angular/material
+   95  ng serve
+   96  tmux
+   97  ls
+   98  cd infrastructure/
+   99  ls
+  100  cd docker-compose/
+  101  ls
+  102  docker-compose -f common.yml -f zookeeper.yml up
+  103  docker create --help
+  104  docker create network --help
+  105  docker create network kafka
+  106  ls
+  107  docker login
+  108  docker login -u mohiulalamprince 
+  109  docker create network kafka
+  110  docker network create kafka
+  111  docker network list
+  112  docker-compose -f common.yml -f zookeeper.yml up
+  113  ls
+  114  docker network delete kafka
+  115  docker network rm kafka
+  116  docker network list
+  117  docker-compose -f common.yml -f zookeeper.yml up
+  118  ls
+  119  cd infrastructure/
+  120  ls
+  121  cd docker-compose/
+  122  ls
+  123  docker-compose -f common.yml -f init_kafka.yml up
+  124  docker-compose -f common.yml -f kafka_cluster.yml down
+  125  docker-compose -f common.yml -f zookeeper.yml down
+  126  docker ps
+  127  docker images
+  128  docker ps
+  129  docker images
+  130  docker-compose -f common.yml -f kafka_cluster.yml down
+  131  docker ps
+  132  docker images
+  133  docker-compose -f common.yml -f kafka_cluster.yml down
+  134  docker ps
+  135  docker-compose -f common.yml -f kafka_cluster.yml down
+  136  docker-compose -f common.yml -f zookeeper.yml down
+  137  docker ps
+  138  docker images
+  139  cd infrastructure/docker-compose/
+  140  ls
+  141  docker-compose -f common.yml -f zookeeper.yml up
+  142  docker ps
+  143  docker ps
+  144  docker ps -w
+  145  docker ps
+  146  docker container 737fe645d191 sh
+  147  docker exec -it  737fe645d191 sh
+  148  docker ps
+  149  docker --help
+  150  docker ps
+  151  docker stop --help
+  152  docker stop 8e79d26ca9a7
+  153  docker ps
+  154  mvn
+  155  sudo apt install maven
+  156  mvn
+  157  mvn versino
+  158  mvn -version
+  159  ls
+  160  mvn clean install -U
+  161  mvn --version
+  162  mvn clean install -U
+  163  ls
+  164  cd infrastructure/
+  165  ls
+  166  cd docker-compose/
+  167  ls
+  168  ./start-up.sh 
+  169  docker ps
+  170  docker container list
+  171  ./start-up.sh 
+  172  docker-compose -f common.yml -f zookeeper.yml down
+  173  ./start-up.sh 
+  174  docker-compose -f common.yml -f zookeeper.yml down
+  175  docker-compose -f common.yml -f kafka_cluster.yml down
+  176  ./start-up.sh 
+  177  docker-compose -f common.yml -f kafka_cluster.yml down
+  178  docker-compose -f common.yml -f zookeeper.yml down
+  179  docker-compose -f common.yml -f zookeeper.yml up
+  180  docker-compose -f common.yml -f zookeeper.yml up --remove-orphans
+  181  docker-compose -f common.yml -f zookeeper.yml 
+  182  docker-compose -f common.yml -f zookeeper.yml up
+  183  docker-compose -f common.yml -f kafka_cluster.yml up
+  184  ls
+  185  cd infrastructure/
+  186  ls
+  187  cd docker-compose/
+  188  ls
+  189  docker-compose -f common.yml -f kafka_cluster.yml up
+  190  echo ruok | nc localhost 2181
+  191  npm install --save hammerjs
+  192  ng g c auth/signup
+  193  ng g c auth/login
+  194  ng g c training
+  195  ng g c training/current-training
+  196  ng g c training/past-training
+  197  ng g c welcome
+  198  npm install @angular/flex-layout -save
+  199  tmux
+  200  curl --location --request POST 'localhost:8083/connectors' --header 'Content-Type: application/json' --data-raw '{
+  201    "name": "order-payment-connector",
+  202    "config": {
+  203        "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+  204        "tasks.max": "1",
+  205        "database.hostname": "host.docker.internal",
+  206        "database.port": "5432",
+  207        "database.user": "backend",
+  208        "database.password": "secret_pass",
+  209        "database.dbname" : "backend",
+  210        "database.server.name": "persisting-pg16",
+  211        "table.include.list": "order.payment_outbox",
+  212        "topic.prefix": "debezium",
+  213        "tombstones.on.delete" : "false",
+  214        "slot.name" : "order_payment_outbox_slot",
+  215        "plugin.name": "pgoutput",
+  216        "auto.create.topics.enable": false,
+  217        "auto.register.schemas": false
+  218        }
+  219   }'
+  220  curl --location --request POST 'localhost:8083/connectors' --header 'Content-Type: application/json' --data-raw '{
+  221    "name": "order-payment-connector",
+  222    "config": {
+  223        "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+  224        "tasks.max": "1",
+  225        "database.hostname": "host.docker.internal",
+  226        "database.port": "5432",
+  227        "database.user": "backend",
+  228        "database.password": "secret_pass",
+  229        "database.dbname" : "backend",
+  230        "database.server.name": "persisting-pg16",
+  231        "table.include.list": "order.payment_outbox",
+  232        "topic.prefix": "debezium",
+  233        "tombstones.on.delete" : "false",
+  234        "slot.name" : "order_payment_outbox_slot",
+  235        "plugin.name": "pgoutput",
+  236        "auto.create.topics.enable": false,
+  237        "auto.register.schemas": false
+  238        }
+  239   }'
+  240  curl --location --request POST 'localhost:8083/connectors' --header 'Content-Type: application/json' --data-raw '{
+  241    "name": "order-payment-connector",
+  242    "config": {
+  243        "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+  244        "tasks.max": "1",
+  245        "database.hostname": "host.docker.internal",
+  246        "database.port": "5432",
+  247        "database.user": "backend",
+  248        "database.password": "secret_pass",
+  249        "database.dbname" : "backend",
+  250        "database.server.name": "rpi-store",
+  251        "table.include.list": "order.payment_outbox",
+  252        "topic.prefix": "debezium",
+  253        "tombstones.on.delete" : "false",
+  254        "slot.name" : "order_payment_outbox_slot",
+  255        "plugin.name": "pgoutput",
+  256        "auto.create.topics.enable": false,
+  257        "auto.register.schemas": false
+  258        }
+  259   }'
+  260  cd infrastructure/
+  261  ls
+  262  cd docker-compose/
+  263  ls
+  264  docker-compose -f common.yml -f zookeeper.yml down
+  265  docker-compose -f common.yml -f kafka_cluster.yml down
+  266  docker ps
+  267  docker stop persisting-pg16
+  268  docker stop persisting-pgadmin
+  269  docker ps
+  270  docker exec persisting-pg16 psql -U backend -c "\l"
+  271  ls
+  272  cd ..
+  273  cd docker-compose/
+  274  ls
+  275  history
+  276  docker ps
+  277  docker stop persisting-pg16
+  278  docker ps -a
+  279  podman rm -f persisting-pg16
+  280  docker ps -a
+  281  docker rm persisting-pg16
+  282  docker ps -a
+  283  docker rm persisting-pg16
+  284  docker stop persisting-pg16
+  285  docker run -it --rm  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/python/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  286  docker network create food-ordering-system
+  287  docker run -it --rm  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/python/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  288  docker run -it --rm  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  289  docker run -it  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  290  docker ps
+  291  podman rm -f persisting-pg16
+  292  docker run -it  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  293  podman rm -f persisting-pg16
+  294  docker images
+  295  docker ps
+  296  docker run -it  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  297  docker rmi -f 3e135f63fe705580ab83883a1ca8d43a3c699ae5679ffb0169c23256dca668e0 
+  298  docker images
+  299  docker ps -a
+  300  docker rm persisting-pg16
+  301  docker ps -a
+  302  docker run -it  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  303  docker ps
+  304  docker ps -a
+  305  docker rm persisting-pg16
+  306  docker ps -a
+  307  docker rm some-postgres postgres
+  308  docker ps -1
+  309  docker ps -a
+  310  ls /home/prince/work/docker/rpi-store-data/
+  311  ls
+  312  docker run -it  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  313  docker run -d  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  314  docke rps
+  315  docker ps
+  316  docker ps -a
+  317  docker run -d  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  318  docke rm persisting-pg16
+  319  docker rm persisting-pg16
+  320  docker run -d  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  321  docker ps
+  322  docker stop persisting-pg16
+  323  docker rm persisting-pg16
+  324  podman run -d  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  325  docker run -d  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v /home/prince/work/docker/rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  326  docker pos
+  327  docker ps
+  328  docker stop persisting-pg16
+  329  docker rm persisting-pg16
+  330  docker run -d  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system  -v /home/prince/work/docker/pgadmin/data:/opt/app-root/src/postgresql-start:Z  postgres
+  331  docker stop persisting-pg16
+  332  docker rm persisting-pg16
+  333  docker run -d  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system   postgres
+  334  docker ps
+  335  docker stop persisting-pg16
+  336  docker volume list
+  337  docker rm persisting-pg16
+  338  docker run -d  --name persisting-pg16  -e POSTGRES_USER=backend  -e POSTGRES_PASSWORD=secret_pass  -e POSTGRES_DATABASE=rpi-store  -v rpi-store-data:/var/lib/pgsql/data  --network food-ordering-system   postgres
+  339  docker volume list
+  340  docker-compose -f common.yml -f  kafka_cluster.yml up
+  341  docker ps
+  342  docker-compose -f common.yml -f kafka_cluster.yml down
+  343  ls
+  344  cd infrastructure/docker-compose/
+  345  ls
+  346  docker-compose -f common.yml -f kafka_cluster.yml down
+  347  docker-compose -f common.yml -f zookeeper.yml down
+  348  docker ps
+  349  docker network list
+  350  docker network list -o wide
+  351  docker volume list
+  352  docker ps
+  353  docker images
+  354  Psql
+  355  psql
+  356  sudo -u postgres
+  357  docker network list
+  358  docker-compose -f common.yml -f kafka_cluster.yml down
+  359  docker-compose -f common.yml -f zookeeper.yml down
+  360  docker ps
+  361  docker run -it --rm   --name persisting-pgadmin  -e PGADMIN_DEFAULT_EMAIL=gls@example.com  -e PGADMIN_DEFAULT_PASSWORD=pga_secret_pass  -p 5050:80  --network food-ordering-system  -d dpage/pgadmin4
+  362  docker ps
+  363  docker exec -it persisting-pg16 sh
+  364  docker stop persisting-pg16
+  365  docker ps
+  366  docker exec -it persisting-pg16 bash
+  367  docker ps
+  368  docker exec persisting-pg16 psql -U backend -c "create database order"
+  369  docker ps
+  370  docker exec persisting-pg16 psql -U backend -c "create database order"
+  371  docker exec persisting-pg16 psql -U backend -c "create database dvdrental1"
+  372  docker exec persisting-pg16 psql -U backend -c "create database `order`"
+  373  docker exec persisting-pg16 psql -U backend -c "create database 'order'"
+  374  docker exec persisting-pg16 psql -U backend -c "create database 'orderdb'"
+  375  docker exec persisting-pg16 psql -U backend -c "create database orderdb"
+  376  docker stop persisting-pg16
+  377  docker ps
+  378  docker exec persisting-pg16 psql -U backend -c "create database order"
+  379  docker exec persisting-pg16 psql -U backend -c "create database `order`"
+  380  docker exec persisting-pg16 psql -U backend -c "create database orderdb"
+  381  docker stop persisting-pg16
+  382  docker ps
+  383  docker logs docker-compose-kafka-debezium-connector-1 -w
+  384  docker logs docker-compose-kafka-debezium-connector-1 
+  385  docker logs docker-compose-kafka-debezium-connector-1 --help
+  386  docker logs docker-compose-kafka-debezium-connector-1 -f
+  387  docker run -it --rm   --name persisting-pgadmin  -e PGADMIN_DEFAULT_EMAIL=gls@example.com  -e PGADMIN_DEFAULT_PASSWORD=pga_secret_pass  -p 5050:80  --network food-ordering-system  -d dpage/pgadmin4
+  388  docker ps
+  389  docker-compose -f common.yml zookeeper.yml up
+  390  ls
+  391  docker-compose -f common.yml -f zookeeper.yml up
+  392  ls
+  393  tmux
+  394  ls
+  395  ./mvnw package -Pnative
+  396  cd ..
+  397  sl
+  398  cd ..
+  399  c d..
+  400  cd ..
+  401  ls
+  402  kubectl get pod -n kafka
+  403  kubect exec -it movies-deployment-575cc68d56-wljdp -n kafka -- sh
+  404  kubectl exec -it movies-deployment-575cc68d56-wljdp -n kafka -- sh
+  405  kubectl get pod -n kafka
+  406  kubectl exec -it movies-deployment-575cc68d56-7mjgj -n kafka -- sh
+  407  kubectl get pod -n kafka
+  408  kubectl exec -it movies-deployment-575cc68d56-5dvfj -n kafka -- sh
+  409  kubectl get svc -n kafka
+  410  kubectl get po -n kafka
+  411  kubectl top pod -n kafka
+  412  ls
+  413  cd schema-registry/
+  414  ls
+  415  mv kustomized/ zArchive/
+  416  ls
+  417  mv *.yaml zArchive/
+  418  ls
+  419  mv manifest zArchive/
+  420  ls
+  421  vim schema-registry-deployment.yaml
+  422  vim schema-registry-service.yaml
+  423  kubectl get service -n kafka
+  424  kubectl delete service schema-registry-svc -n kafka
+  425  kubectl get service -n kafka
+  426  ls
+  427  kubectl apply -f schema-registry-deployment.yaml -n kafka
+  428  kubectl apply -f schema-registry-service.yaml -n kafka
+  429  kubectl get pod -n kafka
+  430  kubectl logs schema-registry-7b4c88fb86-lfv4f -n kafka
+  431  vim schema-registry-deployment.yaml
+  432  kubectl apply -f schema-registry-deployment.yaml -n kafka
+  433  kubectl apply -f schema-registry-service.yaml -n kafka
+  434  kubectl get pod -n kafka
+  435  kubectl logs schema-registry-667ccdd859-qrfmh -n kafka
+  436  kubectl get pod -n kafka
+  437  kubectl get svc -n kafka
+  438  kubectl get pod -n kafka
+  439  cd ..
+  440  ls
+  441  vim readme.txt 
+  442  ls
+  443  kubectl get svc -n kafka
+  444  kubectl get pod -n kafka
+  445  ls -la
+  446  kubectl get po -n kafka
+  447  curl -L https://github.com/kubernetes/kompose/releases/download/v1.34.0/kompose-linux-amd64 -o kompose
+  448  chmod +x kompose 
+  449  sudo mv ./kompose /usr/local/bin/kompose
+  450  ls
+  451  mkdir redis
+  452  cd redis/
+  453  ls
+  454  vim docker-compose.yaml
+  455  kompose convert
+  456  ls
+  457  ls -la
+  458  minikube service web-tcp -n kafka
+  459  minikube service web-tcp
+  460  kubectl get po -n kafka
+  461  kubectl get svc -n kafka
+  462  kubectl describe svc web-tcp
+  463  kubectl describe svc web-tcp -n kafka
+  464  curl http://10.103.127.48
+  465  curl http://10.244.0.59:8080
+  466  kubectl get svc -n kafka
+  467  kubectl exec -it web-tcp -n kafka -- sh
+  468  kubeclt get po -n kafka
+  469  kubectl get po -n kafka
+  470  kubectl exec -it web-9dc66dbb5-jwvhw -n kafka -- sh
+  471  kubectl exec -it redis-replica-7bb5b6c4fd-z464f -n kafka -- sh
+  472  kubectl exec -it redis-leader-6fd8469c5b-vk4dp -n kafka -- sh
+  473  ls
+  474  kubectl get po -n kafka
+  475  kubectl delete -f web-tcp-service.yaml,redis-leader-service.yaml,redis-replica-service.yaml,web-deployment.yaml,redis-leader-deployment.yaml,redis-replica-deployment.yaml
+  476  .
+  477  kubectl delete -f web-tcp-service.yaml,redis-leader-service.yaml,redis-replica-service.yaml,web-deployment.yaml,redis-leader-deployment.yaml,redis-replica-deployment.yaml -n kafka
+  478  ls
+  479  kubectl get po -n kafka
+  480  vim ../readme.txt 
+  481  ls
+  482  mkdir zArchive
+  483  mv *.* zArchive/
+  484  ls
+  485  kubectl cluster-info
+  486  helm repo add bitnami https://charts.bitnami.com/bitnami
+  487  helm repo update
+  488  helm repo add bitnami https://charts.bitnami.com/bitnami
+  489  helm repo update
+  490  helm install my-redis bitnami/redis -n kafka
+  491  echo $REDIS_PASSWORD
+  492  kubectl get pods -n kafka
+  493  ls
+  494  helm install my-redis bitnami/redis -f custom-values.yaml 
+  495  helm install my-redis bitnami/redis -f repliction-redis.yaml -n kafka
+  496  helm install my-redis bitnami/redis -f repliction-redis.yaml
+  497  helm update my-redis bitnami/redis -f repliction-redis.yaml -n kafka
+  498  helm upgrade my-redis bitnami/redis -f repliction-redis.yaml -n kafka
+  499  kubectl get po -n kafka
+  500  cat repliction-redis.yaml 
+  501  helm upgrade my-redis bitnami/redis -f repliction-redis.yaml -n kafka
+  502  kubectl get po -n kafka
+  503  kubectl get deployment -n kafka
+  504  kubectl get deployment 
+  505  kubectl get svc
+  506  kubectl get svc -n kafka
+  507  kubectl get deployment -n kafka
+  508  kubectl get statefull -n kafka
+  509  kubectl get rs -n kafka
+  510  ls
+  511  kubectl apply -f redis-deployment.yaml 
+  512  kubectl apply -f redis-deployment.yaml -n kafka
+  513  cat redis-deployment.yaml 
+  514  ls
+  515  helm upgrade my-redis bitnami/redis -f redis-deployment.yaml 
+  516  echo $REDIS_PASSWORD
+  517  ls
+  518  helm upgrade my-redis bitnami/redis -f redis-config.yaml 
+  519  cat redis-config.yaml 
+  520  kubectl get pod -n kafka
+  521  helm upgrade my-redis bitnami/redis -f redis-config.yaml -n kafka
+  522  helm upgrade my-redis bitnami/redis -f redis-deployment.yaml -n kafka
+  523  kubectl get po -n kafka
+  524  helm upgrade my-redis bitnami/redis -f repliction-redis.yaml -n kafka
+  525  kubectl get po -n kafka
+  526  kubectl exec -it my-redis-master-0 -n kafka -- sh
+  527  kebectl get svc -o yaml
+  528  kubectl get svc -o yaml
+  529  kubectl get po -o yaml
+  530  kubectl get deployment -o yaml
+  531  kubectl get deployment -o yaml -n kafka
+  532  vim redis-role.yaml
+  533  vim redis-role-binding.yaml
+  534  helm upgrade my-redis bitnami/redis -f redis-role.yaml -n kafka
+  535  helm upgrade my-redis bitnami/redis -f redis-role-binding.yaml -n kafka
+  536  kubectl get po -n kafka
+  537  kubectl get po 
+  538  helm delete --help
+  539  ls
+  540  kubectl get po -n kafka
+  541  kubectl exec -it my-redis-master-0 -n kafka -- sh
+  542  export REDIS_NODES=$(kubectl get pods  -l app=redis-cluster -n redis -o json | jq -r '.items | map(.status.podIP) | join(":6379 ")'):6379
+  543  echo $REDIS_NODES
+  544  export REDIS_NODES=$(kubectl get pods  -l app=my-redis -n redis -o json | jq -r '.items | map(.status.podIP) | join(":6379 ")'):6379
+  545  echo $REDIS_NODES
+  546  export REDIS_NODES=$(kubectl get pods  -l app=my-redis -n kafka -o json | jq -r '.items | map(.status.podIP) | join(":6379 ")'):6379
+  547  echo $REDIS_NODES
+  548  export REDIS_NODES=$(kubectl get pods  -l app=redis-cluster -n kafka -o json | jq -r '.items | map(.status.podIP) | join(":6379 ")'):6379
+  549  echo $REDIS_NODES
+  550  helm install my-redis bitnami/redis -f redis-replication.yaml -n kafka
+  551  helm upgrade my-redis bitnami/redis -f redis-replication.yaml -n kafka
+  552  export REDIS_NODES=$(kubectl get pods  -l app=redis-cluster -n kafka -o json | jq -r '.items | map(.status.podIP) | join(":6379 ")'):6379
+  553  echo $REDIS_NODES
+  554  kubectl exec -it redis-cluster-0 -n redis -- redis-cli --cluster create --cluster-replicas 1 ${REDIS_NODES}.
+  555  kubectl exec -it redis-cluster-0 -n kafka -- redis-cli --cluster create --cluster-replicas 1 ${REDIS_NODES}.
+  556  kubectl exec -it my-redis-master-0 -n kafka -- redis-cli --cluster create --cluster-replicas 1 ${REDIS_NODES}.
+  557  ls
+  558  kubectl run redis-cli3 --image redis:latest --attach --leave-stdin-open --env REDIS_PASSWORD=$REDIS_PASSWORD --rm -it -- redis-cli -h redis-master -a $REDIS_PASSWORD -n kafka
+  559  ls
+  560  cd work/
+  561  ls
+  562  cd kafka/
+  563  ls
+  564  helm version
+  565  helm install strimzi strimzi/strimzi-kafka-operator -n strimzi --set watchNamespaces=(kafka) --wait --timeout 300s
+  566  helm install strimzi strimzi/strimzi-kafka-operator -n strimzi --set watchNamespaces=kafka --wait --timeout 300s
+  567  minikube start 8096
+  568  helm install strimzi strimzi/strimzi-kafka-operator -n strimzi --set watchNamespaces=kafka --wait --timeout 300s
+  569  kubectl create -f 'https://strimzi.io/install/latest?namespace=kafka' -n kafka
+  570  kubectl get pod -n kafka --watch
+  571  kubectl logs deployment/strimzi-cluster-operator -n kafka -f
+  572  kubectl get pod -n kafka --watch
+  573  kubectl get pods -n strimzi
+  574  kubectl get pod -n kafka 
+  575  kubectl get pod -n strimzi 
+  576  helm install strimzi strimzi/strimzi-kafka-operator -n strimzi --set watchNamespaces={kafka} --wait --timeout 300s
+  577  ls
+  578  git clone https://github.com/cescoffier/reactive-systems-in-java.git
+  579  ls
+  580  cd reactive-systems-in-java/
+  581  ls
+  582  cd chapter-11/
+  583  ls
+  584  kubectl apply -f deploy/kafka/kafka-cluster.yaml 
+  585  kubectl get pods -n kafka
+  586  kubectl apply -f deploy/kafka/kafka-cluster.yaml -n kafka
+  587  kubectl get pods -n kafka 
+  588  kubectl get pods -n kafka --watch
+  589  kubectl apply -f deploy/kafka/ticks.yaml 
+  590  kubectl apply -f deploy/kafka/processed.yaml 
+  591  kubectl get pods -n kafka --watch
+  592  kubctl list kafkatopic
+  593  kubectl list kafkatopic
+  594  kubectl get kafkatopic
+  595  kubectl get kafkatopic -n kafka
+  596  ls
+  597  cd ticker/
+  598  ls
+  599  docker build -f src/main/docker/Dockerfile.native -t quarkus/event-bus-ticker .
+  600  ./mvnw package -Pnative
+  601  docker build -f src/main/docker/Dockerfile.native -t quarkus/event-bus-ticker .
+  602  docker run -i --rm -p 8080:8080 quarkus/event-bus-ticker
+  603  tmux
+  604  cd movie/
+  605  ls
+  606  ./mvnw quarkus:dev
+  607  ./mvnw package -Pnative
+  608  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie .
+  609  docker run -i --rm -p 8080:8080 mohiulalamprince/movie
+  610  docker images
+  611  docker image ls
+  612  ls
+  613  cd ..
+  614  sl
+  615  ls
+  616  cd reactive-systems-in-java/chapter-11/
+  617  ls
+  618  cd ..
+  619  ls
+  620  cd movie/
+  621  ls
+  622  cd ..
+  623  ls
+  624  cp reactive-systems-in-java/chapter-11/deploy/movies-deployment.yaml movie/
+  625  ls
+  626  cd movie/
+  627  ls
+  628  kubectl apply -f movies-deployment.yaml 
+  629  kubectl get pod
+  630  kubectl logs movies-deployment-575cc68d56-bn9fw
+  631  docker image
+  632  docker image ls
+  633  kubectl get pod
+  634  docker login
+  635  docker push mohiulalamprince/movie
+  636  kubectl apply -f movies-deployment.yaml 
+  637  kubectl get pod
+  638  kubectl logs movies-deployment-575cc68d56-kwsss
+  639  kubectl get pod
+  640  kubectl get pod
+  641  kubectl logs movies-deployment-575cc68d56-kwsss
+  642  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie .
+  643  docker push mohiulalamprince/movie
+  644  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie .\
+  645  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie .
+  646  docker login
+  647  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie .
+  648  docker push mohiulalamprince/movie
+  649  ls
+  650  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie .
+  651  docker push mohiulalamprince/movie
+  652  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie .
+  653  docker push mohiulalamprince/movie
+  654  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie .
+  655  docker push mohiulalamprince/movie
+  656  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie .
+  657  docker push mohiulalamprince/movie
+  658  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie . && docker push mohiulalamprince/movie
+  659  ./mvnw package -Pnative && docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie . && docker push mohiulalamprince/movie && kubectl rollout restart deployment/movies-deployment -n kafka
+  660  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie . && docker push mohiulalamprince/movie
+  661  ls
+  662  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie . && docker push mohiulalamprince/movie
+  663  kubectl rollout restart deployment/movies-deployment -n kafka
+  664  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie . && docker push mohiulalamprince/movie
+  665  kubectl rollout restart deployment/movies-deployment -n kafka
+  666  docker build -f src/main/docker/Dockerfile.native -t mohiulalamprince/movie . && docker push mohiulalamprince/movie
+  667  kubectl rollout restart deployment/movies-deployment -n kafka
+  668  cd ..
+  669  ls
+  670  kubectl apply -f movies-deployment.yaml -n kafka
+  671  kubectl apply -f movies-service.yaml -n kafka
+  672  curl -N 127.0.0.1:8081/
+  673  curl --header "Content-Type: application/json"   --request POST   --data '{"title":"The Shawshank Redemption","year":1994}'   http://127.0.0.1:8081/movies
+  674  ls
+  675  cat movie-de
+  676  vim movies-deployment.yaml 
+  677  kubectl apply -f movies-deployment.yaml -n kafka
+  678  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' http://localhost:8080/
+  679  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' http://localhost:8080/
+  680  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' http://localhost:8080/
+  681  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' http://localhost:8080/
+  682  ls
+  683  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' http://10.109.99.100:31000/
+  684  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' http://10.109.99.100/
+  685  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' http://10.109.99.100:31000/
+  686  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' movies:31000/
+  687  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' movies-service:31000/
+  688  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' 192.168.49.2:31000/
+  689  kubectl get pod
+  690  kubectl scale deployment/movies-deployment --replicas=1
+  691  kubectl get pod
+  692  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' 192.168.49.2:31000/
+  693  kubectl logs movies-deployment-575cc68d56-wdkqh
+  694  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' 192.168.49.2:31000/
+  695  kubectl logs movies-deployment-575cc68d56-wdkqh
+  696  ./mvnw package -Pnative
+  697  kubectl apply -f movies-deployment.yaml 
+  698  kubectl apply -f movies-service.yaml 
+  699  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' 192.168.49.2:31000/
+  700  kubectl get pod
+  701  kubectl logs movies-deployment-575cc68d56-qctj6
+  702  kubectl scale deployment/movies-deployment --replicas=1
+  703  ./mvnw package -Pnative
+  704  kubectl apply -f movies-deployment.yaml 
+  705  kubectl apply -f movies-service.yaml 
+  706  curl --header "Content-Type: application/json" --request POST --data '{"year":1994, "title":"The Shawshank Redemption"}' 192.168.49.2:31000/
+  707  kubectl scale deployment/movies-deployment --replicas=1.
+  708  kubectl scale deployment/movies-deployment --replicas=1
+  709  ./mvnw package -Pnative
+  710  kubectl apply -f movies-deployment.yaml -n kafka
+  711  kubectl apply -f movies-service.yaml -n kafka
+  712  kubectl scale deployment/movies-deployment --replicas=10
+  713  ls
+  714  kubectl scale deployment/movies-deployment --replicas=10 -n kafka
+  715  kubectl scale deployment/movies-deployment --replicas=3 -n kafka
+  716  kubectl scale deployment/movies-deployment --replicas=6 -n kafka
+  717  kubectl scale deployment/movies-deployment --replicas=10 -n kafka
+  718  cd ..
+  719  ls
+  720  kubectl -n kafka exec -i my-cluster-kafka-0 -c kafka --     bin/kafka-producer-perf-test.sh --topic my-topic --num-records 1000000 --record-size 100 --throughput 100 --producer-props bootstrap.servers=my-cluster-kafka-bootstrap:9092 --print-metrics
+  721  kubectl scale deployment/movies-deployment --replicas=10 -n kafka
+  722  ./mvnw package -Pnative
+  723  cd ..
+  724  ls
+  725  cd ..
+  726  ls
+  727  cd work/kafka/
+  728  ls
+  729  cd movie/
+  730  ls
+  731  ./mvnw package -Pnative
+  732  kubectl apply -f movies-deployment.yaml -n kafka
+  733  kubectl apply -f movies-service.yaml -n kafka
+  734  ls
+  735  kubectl scale deployment/movies-deployment --replicas=10 -n kafka
+  736  cd movie/
+  737  ls
+  738  ./mvnw quarkus:dev
+  739  cd ..
+  740  ls
+  741  ./mvnw package -Pnative
+  742  cd movie/
+  743  ./mvnw package -Pnative
+  744  ./mvnw install
+  745  mvn generate-sources
+  746  ./mvnw package -Pnative
+  747  ls
+  748  cd work/
+  749  ls
+  750  cd kafka/
+  751  ls
+  752  exit
+  753  tmux
+  754  cd work/kafka/
+  755  ls
+  756  tmux
+  757  tkn task start -n tektontutorial build-app-movie   --param contextDir=''   --param destinationImage='docker.io/mohiulalamprince/movie' --serviceaccount='build-bot'  --showlog
+  758  ls /tekton
+  759  kubectl delete secret container-registry-secret -n tektontutorial
+  760  kubectl delete sa build-bot -n tektontutorial
+  761  export CONTAINER_REGISTRY_SERVER='docker.io' 
+  762  export CONTAINER_REGISTRY_USER='mohiulalamprince'
+  763  export CONTAINER_REGISTRY_PASSWORD='Mother12#'
+  764  export CONTAINER_REGISTRY_EMAIL='mohiulalamprince@yahoo.com'
+  765  kubectl create secret -n tektontutorial docker-registry container-registry-secret   --docker-server=$CONTAINER_REGISTRY_SERVER   --docker-username=$CONTAINER_REGISTRY_USER   --docker-password=$CONTAINER_REGISTRY_PASSWORD   --docker-email=$CONTAINER_REGISTRY_EMAIL
+  766  kubectl create sa -n tektontutorial build-bot
+  767  kubectl patch serviceaccount build-bot   -p '{"secrets": [{"name": "container-registry-secret"}]}'
+  768  kubectl get sa -n tektontutorial build-bot -o yaml
+  769  kubectl apply -f /home/prince/work/tekton-tutorial/tasks/build-app-task-movie.yaml -n tektontutorial
+  770  cd /home/prince/work/tekton-tutorial/
+  771  ls
+  772  tkn task ls
+  773  tkn task start -n tektontutorial build-app-movie   --param contextDir=''   --param destinationImage='docker.io/mohiulalamprince/movie' -serviceaccount='build-bot'  --showlog
+  774  ls -l ~/.docker/config.json 
+  775  kubectl get po
+  776  kubectl get po -n kafka
+  777  ./mvnw package -Pnative
+  778  tmux
+  779  git branch
+  780  git log
+  781  history
+  782  history > command.txt
